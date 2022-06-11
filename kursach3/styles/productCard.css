@@ -1,0 +1,27 @@
+.card{
+    width: 24rem;
+    padding: 1rem;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card p{
+    font-size: 20px;
+}
+.card img{
+    height: 200px;
+    margin: 0 auto;
+}
+.card h4{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 50px;
+}
+.card h4 a{
+    text-decoration: none;
+    color: #212529;
+}
